@@ -1,5 +1,5 @@
 # Learning
 
 sample readme file for links
-http://www.bookseduced.com/e-books/one-indian-girl-free-pdf-download-chetan-bhagat/
+https://ia801601.us.archive.org/12/items/ChetanBhagatOneIndianGirl2016/Chetan-Bhagat-One-Indian-Girl-_2016_.pdf
 
