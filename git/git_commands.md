@@ -14,5 +14,6 @@
 - git version 2.9.2
 #### Git Configure:
 - git config --global user.name "Emma Paris"
-- git config --global user.email "eparis@atlassian.com"###########################Possible Git Commands:
+- git config --global user.email "eparis@atlassian.com"
+#### Possible Git Commands:
 - git clone, git config, git add, git status, git commit, git push, git pull, git branch, git checkout, and git merge- - 
