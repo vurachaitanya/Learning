@@ -17,3 +17,6 @@ Latest tools and buzz words
 
 ### Training Tools: 
 - [Free Python ML learning](https://www.mygreatlearning.com/academy?ambassador_code=BlogExitPopUp&arz=1#our-courses)
+
+
+### [2D Software tool](https://itsfoss.com/enve-2d-animation/)
