@@ -20,3 +20,6 @@ Latest tools and buzz words
 
 
 ### [2D Software tool](https://itsfoss.com/enve-2d-animation/)
+
+### OpenCV:
+- [Python and OpenCV Course –Create Computer Vision Apps in the Cloud](https://www.freecodecamp.org/news/create-computer-vision-apps-in-the-cloud-with-opencv-and-python/amp/)
