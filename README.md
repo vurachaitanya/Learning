@@ -8,6 +8,7 @@ Latest tools and buzz words
 - stackstrom  :  https://stackstorm.com/
 - [Google Training :](https://applieddigitalskills.withgoogle.com/c/middle-and-high-school/en/research-and-develop-a-topic/test-for-credibility/credibility-clues.html) 
 - [Google Training - list of topics](https://applieddigitalskills.withgoogle.com/c/en/curriculum.html)
+- Man pages is linux replaced with [tldr](https://opensource.com/article/21/6/tealdeer-linux?utm_medium=Email&utm_campaign=weekly&sc_cid=7013a000002wLfAAAU)
 
 
 ### AI/ML/Tools/Chatbot :
