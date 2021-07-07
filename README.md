@@ -34,4 +34,5 @@ Latest tools and buzz words
 - `lsusb` will list the USB PRinters and owner would be `lp` for the file to which the USB Printer is attached.
 - `lpadmin -p chaituprinter -E -v /dev/bus/usb/001/005 -P EPSON_L130.ppd` - Add Printer a name, in my case `chaituprinter`
 - `lp /etc/hosts` will print the file `/etc/hosts` 
+- [EPSON Linux Drivers for L130 Ink Jet Printer](http://download.ebz.epson.net/dsc/du/02/DriverDownloadInfo.do?LG2=EN&CN2=&DSCMI=129010&DSCCHK=3e1fee5f2316289cd249a8b25b6058d94eacfc1e)
 
