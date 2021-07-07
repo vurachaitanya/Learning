@@ -25,3 +25,13 @@ Latest tools and buzz words
 
 ### OpenCV:
 - [Python and OpenCV Course –Create Computer Vision Apps in the Cloud](https://www.freecodecamp.org/news/create-computer-vision-apps-in-the-cloud-with-opencv-and-python/amp/)
+
+
+### Printer Management: on Rasberry Pi & Ubuntu X86/X64
+- Install, Config `CUPS` RPM/db pkgs on your system. [https://programmersought.com/article/23111198205/] share more details with screenshot.
+- PPD Files for EPSON L130 **did not worked** [PPD File which can be downloaded](https://raw.githubusercontent.com/endlessm/epson-inkjet-printer/master/201401w/ppds/EPSON_L130.ppd)
+- In Ubuntu it should be able to work [Steps to install printer](https://www.maketecheasier.com/set-up-a-printer-in-linux/)
+- `lsusb` will list the USB PRinters and owner would be `lp` for the file to which the USB Printer is attached.
+- `lpadmin -p chaituprinter -E -v /dev/bus/usb/001/005 -P EPSON_L130.ppd` - Add Printer a name, in my case `chaituprinter`
+- `lp /etc/hosts` will print the file `/etc/hosts` 
+
