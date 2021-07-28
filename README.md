@@ -10,6 +10,7 @@ Latest tools and buzz words
 - [Google Training - list of topics](https://applieddigitalskills.withgoogle.com/c/en/curriculum.html)
 - Man pages is linux replaced with [tldr](https://opensource.com/article/21/6/tealdeer-linux?utm_medium=Email&utm_campaign=weekly&sc_cid=7013a000002wLfAAAU)
 - du replaced with `dust` [disk utilization with rust tool](https://opensource.com/article/21/6/dust-linux?utm_medium=Email&utm_campaign=weekly&sc_cid=7013a000002wLfAAAU)
+- [Rust Unix tool command replacements](https://opensource.com/article/21/7/rust-tools-linux?utm_medium=Email&utm_campaign=weekly&sc_cid=7013a000002wQ7rAAE)
 
 
 ### AI/ML/Tools/Chatbot :
