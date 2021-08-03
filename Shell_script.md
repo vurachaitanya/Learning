@@ -14,12 +14,18 @@
 ##### Sol:
 ```
 cat scan.sh
+
 if [ `hostname` == webserver]
 then
-  egrep 'unauthorized|failed' auth.log
+  egrep 'unauthorized|failed' /var/log/auth.log 
 else
   print ( "You need to run this script on webserver only" )
 fi
+
+echo  "`grep port /var/log/auth.log|grep sshd |awk '{print $9}'`; `date`" >> /var/webserver_log/unauthorized.log
+
+echo "5 * * * *" sh scan.sh >> /var/spool/cron/crontabs/root
+
 ```
  ##### Question 2:
  - On observer, create a new script called monitor.sh to monitor /var/webserver_monitor/unauthorized.log. If there are new entries, an email should be sent to the admin with the content of these new entries. Otherwise, the email simply says "No unauthorized access."
