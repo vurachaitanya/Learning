@@ -1,2 +1,2 @@
 ## Telegram Stock bot
-- [stock =](https://github.com/pratiksampat/IndianStockTracker)
+- [IndianStockTracker](https://github.com/pratiksampat/IndianStockTracker)
