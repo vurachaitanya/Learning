@@ -4,6 +4,7 @@
  
  - `sudo apt install postgresql` - Install Postgres
  - `sudo -u postgres psql template1` - Connect to template1 DB which is already there
+- [Configuring Postgres](https://ubuntu.com/server/docs/databases-postgresql)
  
  ### Database commands
  
