@@ -16,6 +16,7 @@
  - `\l` - List all the DB created already
  - `\q` - Quits out of that database 
  - `\c testdb;` Connect to the testdb
+ - ` \conninfo` Connection information of database,table,port etc.
  - `psql -h localhost -p 5432 -U postgress testdb` from OS shell
  - Create sample database
  ```
