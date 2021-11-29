@@ -51,4 +51,28 @@
 - `INSERT INTO COMPANY (ID,NAME,AGE,ADDRESS,JOIN_DATE) VALUES (2, 'Allen', 25, 'Texas', '2007-12-13');
 ` - Second way.
 - `SELECT * FROM table_name;` Get all columns from a table.
-- 
+
+
+- Create table and load dummy data
+```
+CREATE TABLE chaitu_table (
+  id SERIAL UNIQUE NOT NULL,
+  code VARCHAR(10) NOT NULL, -- not unique
+  article TEXT,
+  name TEXT NOT NULL, -- not unique
+  department VARCHAR(4),
+  UNIQUE (code, department)
+);
+
+insert into chaitu_table (
+    code, article, name, department
+)
+select
+    left(md5(i::text), 10),
+    md5(random()::text),
+    md5(random()::text),
+    left(md5(random()::text), 4)
+from generate_series(1, 1000) s(i)
+
+
+```
