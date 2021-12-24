@@ -1,5 +1,6 @@
 ### ESP-EYE
 - ESP32 + CAM + Mic = ESP EYE
+- [youtube details](https://www.youtube.com/watch?v=nIfvG9CA64I)
 - [Integration details](https://makeradvisor.com/esp-eye-new-esp32-based-board/)
 - [EYE with Pi](https://gpiocc.github.io/learn/raspberrypi/esp/ml/2020/11/08/martin-ku-stream-video-from-esp32-to-raspberry-pi.html)
 - [Amazon to buy - But not stock](https://www.amazon.in/Espressif-ESP-Eye-Development-Board/dp/B087T5GYHJ)
