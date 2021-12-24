@@ -1,4 +1,6 @@
 ### ESP-EYE
 - ESP32 + CAM + Mic = ESP EYE
 - [Integration details](https://makeradvisor.com/esp-eye-new-esp32-based-board/)
-- [Amazon to buy](https://www.amazon.in/Espressif-ESP-Eye-Development-Board/dp/B087T5GYHJ)
+- [Amazon to buy - But not stock](https://www.amazon.in/Espressif-ESP-Eye-Development-Board/dp/B087T5GYHJ)
+- [number](91-8048372731,321)
+- [India mart @ 2500 Rs](https://www.indiamart.com/proddetail/esp-eye-esp32-wi-fi-and-bluetooth-ai-development-board-21011994948.html)
