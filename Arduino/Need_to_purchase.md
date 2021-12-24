@@ -2,6 +2,12 @@
 - [ ] TP4056 1A Li-Ion Battery Charging Board Micro USB
 ![TP4056 1A Li-Ion Battery Charging Board Micro USB](https://user-images.githubusercontent.com/6918419/147370310-109fca36-f436-4ce6-9348-233530fa00e5.jpg)
 
+
+- [ ] FT232 USB-TTL Serial Adapter
+
+![FT232 USB-TTL Serial Adapter](https://user-images.githubusercontent.com/6918419/147371136-d9fd4449-f085-4a24-ae47-3dc96126b277.jpg)
+
+## Optional
 - [ ] ESP32-CAM-MB
 ![ESP32-CAM-MB](https://user-images.githubusercontent.com/6918419/147370277-547bd40e-1664-4e3f-a7e0-5dc81ca82c18.jpeg)
 
