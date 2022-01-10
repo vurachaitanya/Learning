@@ -7,6 +7,7 @@
 
 ```
 #include <Wire.h> 
+#include <Arduino.h>
 #include <LiquidCrystal_I2C.h>
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
@@ -30,6 +31,7 @@ void loop()
 - Display 2 lines
 ```
 #include <LiquidCrystal_I2C.h>
+#include <Arduino.h>
 
 LiquidCrystal_I2C lcd(0x3F,16,2);  // set the LCD address to 0x3F for a 16 chars and 2 line display
 
@@ -53,6 +55,7 @@ void loop() {
 - Scrolling
 ```
 #include <Wire.h>
+#include <Arduino.h>
 #include <LiquidCrystal_I2C.h>
 LiquidCrystal_I2C lcd(0x27, 2, 1, 0, 4, 5, 6, 7, 3, POSITIVE);
 void setup()
