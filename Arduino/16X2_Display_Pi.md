@@ -29,27 +29,29 @@ void loop()
 ```
 - Display 2 lines
 ```
-#include <LiquidCrystal_I2C.h>
 #include <Arduino.h>
-#include <Wire.h>
+#include <Wire.h> 
+#include <LiquidCrystal_I2C.h>
 
-//LiquidCrystal_I2C(0x27, 16, 2);
+// Set the LCD address to 0x27 for a 16 chars and 2 line display
+LiquidCrystal_I2C lcd(0x27, 16, 2);
 
-LiquidCrystal_I2C lcd(0x3F,16,2);  // set the LCD address to 0x3F for a 16 chars and 2 line display
+void setup()
+{
+	// initialize the LCD
+	lcd.begin();
 
-void setup() {
-  //lcd.init();
-  lcd.begin();
-  lcd.clear();         
-  lcd.backlight();      // Make sure backlight is on
-  // Print a message on both lines of the LCD.
+	// Turn on the blacklight and print a message.
+	lcd.backlight();
+	//lcd.print("Darpad & Srinidhi");
   lcd.setCursor(2,0);   //Set cursor to character 2 on line 0
   lcd.print("Hello Darpad !");
   lcd.setCursor(2,1);   //Move cursor to character 2 on line 1
   lcd.print("Hello Nidhi !");
 }
-
-void loop() {
+void loop()
+{
+	// Do nothing here...
 }
 ```
 
