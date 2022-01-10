@@ -50,3 +50,25 @@ void loop() {
 }
 ```
 
+- Scrolling
+```
+#include <Wire.h>
+#include <LiquidCrystal_I2C.h>
+LiquidCrystal_I2C lcd(0x27, 2, 1, 0, 4, 5, 6, 7, 3, POSITIVE);
+void setup()
+{
+lcd.begin(16, 2); 
+  // Print a message to the LCD.
+  lcd.backlight();
+  lcd.setCursor(0,0);
+  lcd.print(" WELCOME TO STEEMIT ");   
+}
+void loop()
+{
+   lcd.setCursor(16,1);
+   lcd.autoscroll();    // Set diplay to scroll automatically
+   lcd.print(" ");      // set characters
+   delay(700);    
+}
+```
+
