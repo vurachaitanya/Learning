@@ -1,5 +1,8 @@
 ### Ansible to install MYSQL:
 
+- [Mysql Cheat Sheet 1](https://www.mysqltutorial.org/mysql-cheat-sheet.aspx)
+- [Mysql Cheat Sheet 2](https://devhints.io/mysql)
+
 ```
 ---
 - name: Install MySQL
@@ -26,4 +29,20 @@
     - debug: var=mysql_root_pass.stdout
 ```
 - `mysql -u root -p` command to connect to mysql DB.
-- 
+- `SET PASSWORD = PASSWORD('your_new_password');` Set the Database password
+- `Show database;` - Shows list of databases 
+- `create database chaitudb;` - Create database name chaitudb
+-  Create table 
+```
+CREATE TABLE IF NOT EXISTS tasks (
+    task_id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    start_date DATE,
+    due_date DATE,
+    status TINYINT NOT NULL,
+    priority TINYINT NOT NULL,
+    description TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+)  ENGINE=INNODB;
+```
+- `Show tables;` - Show all tables in current databases
