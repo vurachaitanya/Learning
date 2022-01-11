@@ -46,3 +46,4 @@ CREATE TABLE IF NOT EXISTS tasks (
 )  ENGINE=INNODB;
 ```
 - `Show tables;` - Show all tables in current databases
+- `DESCRIBE tasks;` - describe tasks table to see the columns
