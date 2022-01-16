@@ -56,7 +56,4 @@ void loop()
 ```
 
 - Scrolling
-```
-
-```
-
+- [Scrolling examples code](https://docs.arduino.cc/learn/electronics/lcd-displays)
