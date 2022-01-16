@@ -1,5 +1,6 @@
 ### Ultrasonic Sensor Arduino Interfacing
 - [Source](https://www.theengineeringprojects.com/2017/08/ultrasonic-sensor-arduino-interfacing.html)
+- [with display](https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/)
 ```
 // defines arduino pins numbers
 const int trigPin = 12;
