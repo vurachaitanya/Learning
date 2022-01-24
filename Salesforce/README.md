@@ -1,4 +1,5 @@
 ### Links
+- [SF Career Path](https://trailhead.salesforce.com/career-path/)
 - [SF Intro Video](https://trailhead.salesforce.com/live/videos/a2r3k000001dKQi/salesforce-fundamentals-lite/)
 - [SF All Videos](https://trailhead.salesforce.com/live/videos/?type=all)
 - [SF Modules](https://trailhead.salesforce.com/modules)
