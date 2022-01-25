@@ -6,3 +6,6 @@
 - [SF Fundamental starting](https://trailhead.salesforce.com/users/trailblazerconnect/trailmixes/salesforce-fundamentals-lite-trailmix)
 - [SF Projects](https://trailhead.salesforce.com/projects)
 - [SF Personal Board](https://trailhead.salesforce.com/en/today)
+
+### Free account:
+- [SF login console](https://login.salesforce.com/), [Link2](https://optum9.lightning.force.com/lightning/page/home), [same user name](vurachaitanya-zarq@force.com/B@)
