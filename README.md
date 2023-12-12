@@ -16,6 +16,7 @@ Latest tools and buzz words
 ### AI/ML/Tools/Chatbot :
 - [Chatbot tools](https://www.mygreatlearning.com/blog/basics-of-building-an-artificial-intelligence-chatbot/)
 - [ML Basic Challenges](https://www.machinehack.com/hackathon)
+- [GH: AzatAI/cs_books: Computer science books Recommended by AzatAI. (Education ONLY)](https://github.com/AzatAI/cs_books)
 
 
 ### Training Tools: 
